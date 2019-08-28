@@ -6,9 +6,9 @@ the organs.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+The project is divided in two main categories, the firs one is the generation of the 3D model and the second one is the generation of the simulation. The former is implemented by using Python and the later by using C#.
 
-### Dependencies 
+### Python Dependencies 
 
 The project has the following required dependencies:
 
@@ -31,13 +31,17 @@ Then most of the above dependencies can be install via the line :
 ```
 conda install dependency_package_name
 ```
-or
+or by installing [pip](https://pip.pypa.io/en/stable/installing/) and then using the line : 
 ```
 pip install dependency_package_name
 ```
 A step by step installation of Blender Python module can be found [here](https://blog.machinimatrix.org/building-blender/) and [here](https://cobertos.com/2017/07/19/compiling-blender-as-a-python-module-for-windows-10-x64/). 
 For the other the installation steps are describe in their github project site.
 
+
+### C# Dependencies
+
+* [Bullet](https://pybullet.org/wordpress)
 
 ## Authors
 
